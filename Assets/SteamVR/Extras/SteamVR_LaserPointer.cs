@@ -79,12 +79,6 @@ public class SteamVR_LaserPointer : MonoBehaviour
     // Update is called once per frame
 	void Update ()
     {
-        if (!isActive)
-        {
-            isActive = true;
-            this.transform.GetChild(0).gameObject.SetActive(true);
-        }
-
         float dist = 100f;
 
         SteamVR_TrackedController controller = GetComponent<SteamVR_TrackedController>();

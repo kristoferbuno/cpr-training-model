@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\bpmCheckset.cs" />
      <Compile Include="Assets\compressionCheck.cs" />
+     <Compile Include="Assets\shoulderTapCheck.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />

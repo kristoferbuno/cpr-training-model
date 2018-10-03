@@ -56,6 +56,7 @@
      <Compile Include="Assets\bpmCheckset.cs" />
      <Compile Include="Assets\breathingCheck.cs" />
      <Compile Include="Assets\compressionCheck.cs" />
+     <Compile Include="Assets\compressionCheckCount.cs" />
      <Compile Include="Assets\shoulderTapCheck.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />

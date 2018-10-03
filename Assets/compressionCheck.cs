@@ -25,12 +25,12 @@ public class compressionCheck : MonoBehaviour {
             lastCollisionTime = 0;
         }
 
-        if (comptimes.Count > 0 && Time.time - (float)comptimes[comptimes.Count-1] > 6)
+        /* if (comptimes.Count > 0 && Time.time - (float)comptimes[comptimes.Count-1] > 6)
         {
             Debug.Log("comptimes length=" + comptimes.Count + " cleared, bpm=" + bpm + " reset to 0. t=" + Time.time);
             comptimes.Clear();
             bpm = 0;
-        }
+        } */
     }
 
     void OnTriggerEnter(Collider col)

@@ -34,6 +34,8 @@ public class shoulderTapCheck : MonoBehaviour {
             rightCol = true;
             Debug.Log("Right is inside");
         }
+
+        SteamVR_Controller.Input((int)col.gameObject.GetComponent<SteamVR_TrackedController>().controllerIndex).TriggerHapticPulse(500);
     }
 
     void OnTriggerLeave(Collider col)
@@ -49,6 +51,7 @@ public class shoulderTapCheck : MonoBehaviour {
             rightCol = false;
             Debug.Log("Right leaves");
         }
+
     }
 
 }

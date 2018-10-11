@@ -63,6 +63,7 @@ public class compressionCheck : MonoBehaviour {
             }
             //Debug.Log(isValidCompression(collisions));
         }
+        SteamVR_Controller.Input((int)col.gameObject.GetComponent<SteamVR_TrackedController>().controllerIndex).TriggerHapticPulse(500);
     }
 
     //checks if parameter ArrayList has the most recent four collisions being two left and two right

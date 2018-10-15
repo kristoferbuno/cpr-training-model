@@ -15,6 +15,8 @@ public class shoulderTapCheck : MonoBehaviour {
         if (leftCol && rightCol)
         {
             tapped = true;
+            leftCol = false;
+            rightCol = false;
             GameObject.Find("call911Page").transform.Find("GUIArrows911").gameObject.active = true;
             GameObject.Find("call911Page").transform.Find("call911Dialogue").gameObject.active = true;
             GameObject.Find("attentionPage").gameObject.active = false;

@@ -17,14 +17,14 @@ public class compressionCheckCount : MonoBehaviour {
 
 		if (compressionCheck.comptimes.Count >= 30)
 		{
+		compressionCheck.comptimes.Clear();
+		compressionCheck.collisions.Clear();
+		compressionCheck.bpm = 0;
 		GameObject.Find("cprSetup").transform.Find("compressionCompletion").gameObject.SetActive(true);
 		GameObject.Find("cprSetup").transform.Find("heartCanvas").gameObject.SetActive(false);
 		GameObject.Find("cprSetup").transform.Find("bottomPlate").gameObject.SetActive(false);
 		GameObject.Find("cprSetup").transform.Find("topPlate").gameObject.SetActive(false);
         gameObject.SetActive(false);
-		compressionCheck.comptimes.Clear();
-		compressionCheck.collisions.Clear();
-		compressionCheck.bpm = 0;
 		}
     }
 }

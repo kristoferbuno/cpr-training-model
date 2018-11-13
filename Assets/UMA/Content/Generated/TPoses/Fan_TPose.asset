@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f9558e6e7404a242920748f24487bfa, type: 3}
+  m_Name: Fan_TPose
+  m_EditorClassIdentifier: 
+  serializedChunk: 020000000346616e000000000000404000000000f40435bf0000008000000080f404353f0000a0400000a0400000803f010000000746616e5f3030327b640fba85ebbf39007784be00000000000000001cf699becb26743f0000803f0000803f0000803f0100000000000000

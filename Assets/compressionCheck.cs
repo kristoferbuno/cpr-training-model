@@ -60,10 +60,12 @@ public class compressionCheck : MonoBehaviour {
                 Debug.Log("New compression added at t=" + lastCollisionTime + ", avgBPM="+(int)averageBPM(comptimes)+", comptimes.Count="+comptimes.Count);
                 bpm = averageBPM(comptimes);
                 lastCollisionTime = 0;
+                SteamVR_Controller.Input((int)col.gameObject.GetComponent<SteamVR_TrackedController>().controllerIndex).TriggerHapticPulse(2000);
+                SteamVR_Controller.Input((int)col.gameObject.GetComponent<SteamVR_TrackedController>().controllerIndex - 1).TriggerHapticPulse(2000);
+                SteamVR_Controller.Input((int)col.gameObject.GetComponent<SteamVR_TrackedController>().controllerIndex + 1).TriggerHapticPulse(2000);
             }
             //Debug.Log(isValidCompression(collisions));
         }
-        SteamVR_Controller.Input((int)col.gameObject.GetComponent<SteamVR_TrackedController>().controllerIndex).TriggerHapticPulse(2000);
     }
 
     //checks if parameter ArrayList has the most recent four collisions being two left and two right
@@ -74,6 +76,8 @@ public class compressionCheck : MonoBehaviour {
         rayl.RemoveRange(0, coml.Count - 4);
 
         int[] zeroIsLeftOneIsRight = new int[2];
+
+        string topcheck = "";
 
         foreach (var counter in rayl)
         {
@@ -87,6 +91,16 @@ public class compressionCheck : MonoBehaviour {
             else if ((temp[1].Contains("right")))
             {
                 zeroIsLeftOneIsRight[1]++;
+            }
+
+            if((temp[0]).Contains("top"))
+            {
+                topcheck+="t";
+            }
+            
+            else if((temp[0]).Contains("bottom"))
+            {
+                topcheck+="b";
             }
         }
 
@@ -105,7 +119,11 @@ public class compressionCheck : MonoBehaviour {
             }
         } */
 
-        return zeroIsLeftOneIsRight[0] == zeroIsLeftOneIsRight[1] && zeroIsLeftOneIsRight[0] == 2;
+        if (zeroIsLeftOneIsRight[0] == zeroIsLeftOneIsRight[1] && zeroIsLeftOneIsRight[0] == 2 && topcheck.Substring(0,1).Equals("t"))
+        {
+            return true;
+        }
+        return false;
     }
 
     void printComp(ArrayList collisions)

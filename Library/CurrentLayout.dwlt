@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -210,7 +210,7 @@ MonoBehaviour:
   - {fileID: 12}
   - {fileID: 16}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -370,24 +370,24 @@ MonoBehaviour:
     height: 566
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a07c0000
-    m_LastClickedID: 31904
-    m_ExpandedIDs: 30d7feffe6fbffff0000000016300000ae800000
+    scrollPos: {x: 0, y: 120}
+    m_SelectedIDs: f8300000
+    m_LastClickedID: 12536
+    m_ExpandedIDs: 76faffffe6fbffff00000000a2300000f8300000063100004a31000062310000f831000066320000dc320000f4320000a0330000f03300003e340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: CPRSection
+      m_OriginalName: CPRSection
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 12450
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -423,14 +423,14 @@ MonoBehaviour:
     height: 566
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 1313.3618880338427
+  lastFramingTime: 22317.097415978205
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.6979742, y: -0.13685495, z: 1.8068032}
+    m_Target: {x: 3.914041, y: -12.577534, z: 4.7035017}
     speed: 2
-    m_Value: {x: 1.6979742, y: -0.13685495, z: 1.8068032}
+    m_Value: {x: 3.914041, y: -12.577534, z: 4.7035017}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -458,13 +458,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.23680398, y: -0.39513448, z: 0.10618041, w: -0.88120276}
+    m_Target: {x: 0.5154138, y: 0.33373725, z: -0.22759943, w: 0.7557556}
     speed: 2
-    m_Value: {x: -0.236804, y: -0.3951345, z: 0.106180415, w: -0.8812028}
+    m_Value: {x: 0.5154138, y: 0.33373725, z: -0.22759943, w: 0.7557556}
   m_Size:
-    m_Target: 6.2979364
+    m_Target: 15.839037
     speed: 2
-    m_Value: 6.2979364
+    m_Value: 15.839037
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -580,20 +580,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/ClassRoom Stuff/Meshes
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 61
   m_LastFolders:
-  - Assets/ClassRoom Stuff/Meshes
+  - Assets
   m_LastFoldersGridSize: 61
   m_LastProjectPath: C:\Users\ITTSEC\Desktop\IITSEC2018\CPR Model
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 82720000
-    m_LastClickedID: 29314
-    m_ExpandedIDs: 000000003c150000de160000fc18000026190000681b0000d41c0000061e0000362200004e2400006a2700006c2800004a2a0000da2b00009672000000ca9a3b
+    scrollPos: {x: 0, y: 95}
+    m_SelectedIDs: 3c150000
+    m_LastClickedID: 5436
+    m_ExpandedIDs: 000000003c150000f81600005e1900008c190000fa1b00000a1c0000721d0000f61d0000741e0000c81e0000e41e0000ca2200002623000060250000662800009a280000a0290000962b0000fa2c0000302d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -621,7 +621,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c150000de160000fc18000026190000681b0000d41c0000061e0000362200004e2400006a2700006c2800004a2a0000da2b0000
+    m_ExpandedIDs: 000000003c150000f81600005e1900008c190000fa1b00000a1c0000721d0000f61d0000741e0000c81e0000e41e0000ca2200002623000060250000662800009a280000a0290000962b0000fa2c0000302d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -729,7 +729,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 12178
+  m_LastSelectedObjectID: 12642
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52

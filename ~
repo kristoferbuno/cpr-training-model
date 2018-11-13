@@ -1,0 +1,379 @@
+Import classroom models, add tables and chairs
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   Assets/ClassRoom Stuff.meta
+#	new file:   Assets/ClassRoom Stuff/Materials.meta
+#	new file:   Assets/ClassRoom Stuff/Materials/Book_Cisco.mat
+#	new file:   Assets/ClassRoom Stuff/Materials/Book_Cisco.mat.meta
+#	new file:   Assets/ClassRoom Stuff/Materials/Book_Shelf.mat
+#	new file:   Assets/ClassRoom Stuff/Materials/Book_Shelf.mat.meta
+#	new file:   Assets/ClassRoom Stuff/Materials/Chear_Dif.mat
+#	new file:   Assets/ClassRoom Stuff/Materials/Chear_Dif.mat.meta
+#	new file:   Assets/ClassRoom Stuff/Materials/Door.mat
+#	new file:   Assets/ClassRoom Stuff/Materials/Door.mat.meta
+#	new file:   Assets/ClassRoom Stuff/Materials/ElectricalBox_Hight.mat
+#	new file:   Assets/ClassRoom Stuff/Materials/ElectricalBox_Hight.mat.meta
+#	new file:   Assets/ClassRoom Stuff/Materials/Fan_Dif.mat
+#	new file:   Assets/ClassRoom Stuff/Materials/Fan_Dif.mat.meta
+#	new file:   Assets/ClassRoom Stuff/Materials/Fiberglass.mat
+#	new file:   Assets/ClassRoom Stuff/Materials/Fiberglass.mat.meta
+#	new file:   Assets/ClassRoom Stuff/Materials/Glass_Tile.mat
+#	new file:   Assets/ClassRoom Stuff/Materials/Glass_Tile.mat.meta
+#	new file:   Assets/ClassRoom Stuff/Materials/Green_Board_Dif.mat
+#	new file:   Assets/ClassRoom Stuff/Materials/Green_Board_Dif.mat.meta
+#	new file:   Assets/ClassRoom Stuff/Materials/Lamp.mat
+#	new file:   Assets/ClassRoom Stuff/Materials/Lamp.mat.meta
+#	new file:   Assets/ClassRoom Stuff/Materials/Metal.mat
+#	new file:   Assets/ClassRoom Stuff/Materials/Metal.mat.meta
+#	new file:   Assets/ClassRoom Stuff/Materials/PC_Dif.mat
+#	new file:   Assets/ClassRoom Stuff/Materials/PC_Dif.mat.meta
+#	new file:   Assets/ClassRoom Stuff/Materials/Posters.mat
+#	new file:   Assets/ClassRoom Stuff/Materials/Posters.mat.meta
+#	new file:   Assets/ClassRoom Stuff/Materials/Projector.mat
+#	new file:   Assets/ClassRoom Stuff/Materials/Projector.mat.meta
+#	new file:   Assets/ClassRoom Stuff/Materials/Projector_Screen.mat
+#	new file:   Assets/ClassRoom Stuff/Materials/Projector_Screen.mat.meta
+#	new file:   Assets/ClassRoom Stuff/Materials/Shelf.mat
+#	new file:   Assets/ClassRoom Stuff/Materials/Shelf.mat.meta
+#	new file:   Assets/ClassRoom Stuff/Materials/Tables_Dif.mat
+#	new file:   Assets/ClassRoom Stuff/Materials/Tables_Dif.mat.meta
+#	new file:   Assets/ClassRoom Stuff/Materials/Teachers_Board.mat
+#	new file:   Assets/ClassRoom Stuff/Materials/Teachers_Board.mat.meta
+#	new file:   Assets/ClassRoom Stuff/Materials/Wood.mat
+#	new file:   Assets/ClassRoom Stuff/Materials/Wood.mat.meta
+#	new file:   Assets/ClassRoom Stuff/Materials/printer.mat
+#	new file:   Assets/ClassRoom Stuff/Materials/printer.mat.meta
+#	new file:   Assets/ClassRoom Stuff/Meshes.meta
+#	new file:   Assets/ClassRoom Stuff/Meshes/Board_Big.FBX
+#	new file:   Assets/ClassRoom Stuff/Meshes/Board_Big.FBX.meta
+#	new file:   Assets/ClassRoom Stuff/Meshes/Book.FBX
+#	new file:   Assets/ClassRoom Stuff/Meshes/Book.FBX.meta
+#	new file:   Assets/ClassRoom Stuff/Meshes/Book_Shelfs.FBX
+#	new file:   Assets/ClassRoom Stuff/Meshes/Book_Shelfs.FBX.meta
+#	new file:   Assets/ClassRoom Stuff/Meshes/Chair.FBX
+#	new file:   Assets/ClassRoom Stuff/Meshes/Chair.FBX.meta
+#	new file:   Assets/ClassRoom Stuff/Meshes/Door.FBX
+#	new file:   Assets/ClassRoom Stuff/Meshes/Door.FBX.meta
+#	new file:   Assets/ClassRoom Stuff/Meshes/Electricity_Box.FBX
+#	new file:   Assets/ClassRoom Stuff/Meshes/Electricity_Box.FBX.meta
+#	new file:   Assets/ClassRoom Stuff/Meshes/Fan.FBX
+#	new file:   Assets/ClassRoom Stuff/Meshes/Fan.FBX.meta
+#	new file:   Assets/ClassRoom Stuff/Meshes/Lamp.FBX
+#	new file:   Assets/ClassRoom Stuff/Meshes/Lamp.FBX.meta
+#	new file:   Assets/ClassRoom Stuff/Meshes/PC.FBX
+#	new file:   Assets/ClassRoom Stuff/Meshes/PC.FBX.meta
+#	new file:   Assets/ClassRoom Stuff/Meshes/Posters.FBX
+#	new file:   Assets/ClassRoom Stuff/Meshes/Posters.FBX.meta
+#	new file:   Assets/ClassRoom Stuff/Meshes/Printer.FBX
+#	new file:   Assets/ClassRoom Stuff/Meshes/Printer.FBX.meta
+#	new file:   Assets/ClassRoom Stuff/Meshes/Projector.FBX
+#	new file:   Assets/ClassRoom Stuff/Meshes/Projector.FBX.meta
+#	new file:   Assets/ClassRoom Stuff/Meshes/Projector_Screen.FBX
+#	new file:   Assets/ClassRoom Stuff/Meshes/Projector_Screen.FBX.meta
+#	new file:   Assets/ClassRoom Stuff/Meshes/Table_Big.FBX
+#	new file:   Assets/ClassRoom Stuff/Meshes/Table_Big.FBX.meta
+#	new file:   Assets/ClassRoom Stuff/Meshes/Table_Small.FBX
+#	new file:   Assets/ClassRoom Stuff/Meshes/Table_Small.FBX.meta
+#	new file:   Assets/ClassRoom Stuff/Meshes/Tables_Few.FBX
+#	new file:   Assets/ClassRoom Stuff/Meshes/Tables_Few.FBX.meta
+#	new file:   Assets/ClassRoom Stuff/Meshes/Teachers_Board.FBX
+#	new file:   Assets/ClassRoom Stuff/Meshes/Teachers_Board.FBX.meta
+#	new file:   Assets/ClassRoom Stuff/Meshes/Window.FBX
+#	new file:   Assets/ClassRoom Stuff/Meshes/Window.FBX.meta
+#	new file:   Assets/ClassRoom Stuff/ScreenShots.meta
+#	new file:   Assets/ClassRoom Stuff/ScreenShots/Bundle.jpg
+#	new file:   Assets/ClassRoom Stuff/ScreenShots/Bundle.jpg.meta
+#	new file:   Assets/ClassRoom Stuff/ScreenShots/RoomRedone_0000_Layer 5.jpg
+#	new file:   Assets/ClassRoom Stuff/ScreenShots/RoomRedone_0000_Layer 5.jpg.meta
+#	new file:   Assets/ClassRoom Stuff/ScreenShots/RoomRedone_0003_Layer 2.jpg
+#	new file:   Assets/ClassRoom Stuff/ScreenShots/RoomRedone_0003_Layer 2.jpg.meta
+#	new file:   Assets/ClassRoom Stuff/ScreenShots/RoomRedone_0004_Layer 1.jpg
+#	new file:   Assets/ClassRoom Stuff/ScreenShots/RoomRedone_0004_Layer 1.jpg.meta
+#	new file:   Assets/ClassRoom Stuff/Showcase.unity
+#	new file:   Assets/ClassRoom Stuff/Showcase.unity.meta
+#	new file:   Assets/ClassRoom Stuff/Textures.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Book_3d_games.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Book_3d_games.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Book_Cisco.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Book_Cisco.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Book_Shelf.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Book_Shelf.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Book_Shelf_NRM.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Book_Shelf_NRM.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Book_Unity.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Book_Unity.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Book_VR.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Book_VR.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Chair_Dif.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Chair_Dif.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Chair_NRM.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Chair_NRM.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Door.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Door.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/ElectricalBox2_Nrm.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/ElectricalBox2_Nrm.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/ElectricalBox_Hight.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/ElectricalBox_Hight.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Fan_Dif.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Fan_Dif.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Fiberglass.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Fiberglass.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Glass_Tile.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Glass_Tile.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Green_Board_Dif.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Green_Board_Dif.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Green_Board_NRM_1.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Green_Board_NRM_1.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Lamp.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Lamp.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Lamp_Illum.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Lamp_Illum.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Metal_Dif.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Metal_Dif.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/PC_Dif.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/PC_Dif.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/PC_Dif_1.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/PC_Dif_1.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/PC_Emi.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/PC_Emi.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/PC_Illum.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/PC_Illum.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/PC_Illum_1.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/PC_Illum_1.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/PC_NRM.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/PC_NRM.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Posters.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Posters.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Projector.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Projector.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Projector_NRM.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Projector_NRM.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Projector_Screen.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Projector_Screen.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Shelf.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Shelf.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Shelf_NRM.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Shelf_NRM.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Tables_Dif.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Tables_Dif.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Tables_NRM.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Tables_NRM.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Teachers_Board.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Teachers_Board.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/Wood.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/Wood.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/printer.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/printer.tga.meta
+#	new file:   Assets/ClassRoom Stuff/Textures/printer_NRM_1.tga
+#	new file:   Assets/ClassRoom Stuff/Textures/printer_NRM_1.tga.meta
+#	modified:   Assets/bocs.unity
+#	modified:   Library/CurrentLayout.dwlt
+#	new file:   Library/CurrentMaximizeLayout.dwlt
+#	modified:   Library/InspectorExpandedItems.asset
+#	new file:   Library/ShaderCache/0/069248695eb8bf7f943136781dd28237.bin
+#	new file:   Library/ShaderCache/1/18fdd849dc67dd4f0ccacbb9b41ceb08.bin
+#	new file:   Library/ShaderCache/1/1fac7ef047f179cfafee1a26821da3cf.bin
+#	new file:   Library/ShaderCache/2/21a3e2598874c333ba0d498a07509788.bin
+#	new file:   Library/ShaderCache/2/28130e21e8ee6f54fc3208425053b02e.bin
+#	new file:   Library/ShaderCache/3/3843c1f3b1088bf7b28858fd94179b41.bin
+#	new file:   Library/ShaderCache/3/39fb36b1a85b57cac38c2f8a2c8ffe53.bin
+#	new file:   Library/ShaderCache/4/44298b0530e37aa79cab19c0d0184cd2.bin
+#	new file:   Library/ShaderCache/4/4ee7772c9a46a1c6af82e6e9fea1a088.bin
+#	new file:   Library/ShaderCache/6/67f5ece77948874e8621c57d257b5441.bin
+#	new file:   Library/ShaderCache/6/68ad8bcb4d0b0db543e153a609c518d5.bin
+#	new file:   Library/ShaderCache/7/7081b7395831aee6b9289fb60743eed9.bin
+#	new file:   Library/ShaderCache/8/81ccaf13c38c6b9ac8a3ef70a313f484.bin
+#	new file:   Library/ShaderCache/8/88e3cb84e4a7fcf96e482f2d2310ea3b.bin
+#	new file:   Library/ShaderCache/b/b87f8456287a707d64ffccb9d356d825.bin
+#	new file:   Library/ShaderCache/b/bf244c849b904fcd667fc24343b6404c.bin
+#	new file:   Library/ShaderCache/c/c8aa62cc58d143b1d1ae241bd30a0526.bin
+#	new file:   Library/ShaderCache/c/cd5fa53e5eca2587ba45cf3a48ce932c.bin
+#	new file:   Library/ShaderCache/d/d56be3e7b5b88d3a023eb6c877f9f7c8.bin
+#	new file:   Library/ShaderCache/d/ddc41c11e1029caeb976c3e50ed82eb0.bin
+#	new file:   Library/ShaderCache/d/ddf946c6bb71d75124217c75fc0d11b6.bin
+#	new file:   Library/ShaderCache/e/e27898a032d1cd3baa0ccee66e53c2e3.bin
+#	new file:   Library/ShaderCache/e/e7e134669c2bb684b9a3c969e05a6f25.bin
+#	new file:   Library/ShaderCache/e/ecdc27a34dcc8b26245a6b4752a2f871.bin
+#	new file:   Library/ShaderCache/e/ee0fc8edd78686d1ac2f103dd925a54a.bin
+#	new file:   Library/ShaderCache/f/f36b9d2d9978466d7c28704f9ee88ff0.bin
+#	new file:   Library/ShaderCache/f/f464af4492d3a4630557d9367a0edbd2.bin
+#	new file:   Library/ShaderCache/f/fbd55db1d6da1b5dae3de4f2b2ac101b.bin
+#	modified:   Library/assetDatabase3
+#	modified:   Library/expandedItems
+#	new file:   Library/metadata/01/01eb57db174f488439b4408bc6d25109
+#	new file:   Library/metadata/01/01eb57db174f488439b4408bc6d25109.info
+#	new file:   Library/metadata/10/10a6992ac0a70a84dab35aee707a1e8d
+#	new file:   Library/metadata/10/10a6992ac0a70a84dab35aee707a1e8d.info
+#	new file:   Library/metadata/12/126a58b0138b4ad47aa300a403be3840
+#	new file:   Library/metadata/12/126a58b0138b4ad47aa300a403be3840.info
+#	new file:   Library/metadata/1e/1ebc67a13fde67a4ba59bcae6a39c960
+#	new file:   Library/metadata/1e/1ebc67a13fde67a4ba59bcae6a39c960.info
+#	new file:   Library/metadata/21/218b090c5e2af5645ab68e42841679ff
+#	new file:   Library/metadata/21/218b090c5e2af5645ab68e42841679ff.info
+#	new file:   Library/metadata/23/236a0a6b0d561774f88f551e85dfb533
+#	new file:   Library/metadata/23/236a0a6b0d561774f88f551e85dfb533.info
+#	new file:   Library/metadata/25/25823476d7e86314ea81e0cb2deb0340
+#	new file:   Library/metadata/25/25823476d7e86314ea81e0cb2deb0340.info
+#	new file:   Library/metadata/28/283eaa509a4146e4b91e2ae7d3ac21ca
+#	new file:   Library/metadata/28/283eaa509a4146e4b91e2ae7d3ac21ca.info
+#	new file:   Library/metadata/2a/2a092d71b60b74047a65f8be4257bccd
+#	new file:   Library/metadata/2a/2a092d71b60b74047a65f8be4257bccd.info
+#	new file:   Library/metadata/2b/2be81db4a3c318c45aadcf13033436c8
+#	new file:   Library/metadata/2b/2be81db4a3c318c45aadcf13033436c8.info
+#	new file:   Library/metadata/2e/2e3b37fb9edb9b0429d689247932a7b2
+#	new file:   Library/metadata/2e/2e3b37fb9edb9b0429d689247932a7b2.info
+#	new file:   Library/metadata/32/3239d3d71eec7194e858a944d0fa259c
+#	new file:   Library/metadata/32/3239d3d71eec7194e858a944d0fa259c.info
+#	new file:   Library/metadata/39/39c821e43ce104b44a0dc78a0aedbc7c
+#	new file:   Library/metadata/39/39c821e43ce104b44a0dc78a0aedbc7c.info
+#	new file:   Library/metadata/3a/3a52b1cbf33705144b778410f39552d8
+#	new file:   Library/metadata/3a/3a52b1cbf33705144b778410f39552d8.info
+#	new file:   Library/metadata/3d/3d6bbcd189757a542830a66d7138497e
+#	new file:   Library/metadata/3d/3d6bbcd189757a542830a66d7138497e.info
+#	new file:   Library/metadata/3e/3ed868b78cfc89f4187ee6c22b707009
+#	new file:   Library/metadata/3e/3ed868b78cfc89f4187ee6c22b707009.info
+#	new file:   Library/metadata/40/401c9c4e4793e064ebcf9d4c1cf9ead7
+#	new file:   Library/metadata/40/401c9c4e4793e064ebcf9d4c1cf9ead7.info
+#	new file:   Library/metadata/45/458426798ec768a418345b71252b864c
+#	new file:   Library/metadata/45/458426798ec768a418345b71252b864c.info
+#	new file:   Library/metadata/48/487149e82b94ecf43a6ed4bef0a92bca
+#	new file:   Library/metadata/48/487149e82b94ecf43a6ed4bef0a92bca.info
+#	new file:   Library/metadata/49/495c637751c67da46827eeeccc2fe3e0
+#	new file:   Library/metadata/49/495c637751c67da46827eeeccc2fe3e0.info
+#	new file:   Library/metadata/49/49afd2dbcd7a75443841efdbc2d12f27
+#	new file:   Library/metadata/49/49afd2dbcd7a75443841efdbc2d12f27.info
+#	new file:   Library/metadata/4d/4d1c5396c14dcaf4b8a4fca6e4a73592
+#	new file:   Library/metadata/4d/4d1c5396c14dcaf4b8a4fca6e4a73592.info
+#	new file:   Library/metadata/4f/4f67c20384d1d144c8676f1d9c4e7f4d
+#	new file:   Library/metadata/4f/4f67c20384d1d144c8676f1d9c4e7f4d.info
+#	new file:   Library/metadata/51/515bb85a42ef26642adf7aabdbfb1781
+#	new file:   Library/metadata/51/515bb85a42ef26642adf7aabdbfb1781.info
+#	new file:   Library/metadata/55/552acd8b9c74625458ce99478247b298
+#	new file:   Library/metadata/55/552acd8b9c74625458ce99478247b298.info
+#	new file:   Library/metadata/56/56eefe4742d09e94c96f4f5a8a9208a6
+#	new file:   Library/metadata/56/56eefe4742d09e94c96f4f5a8a9208a6.info
+#	new file:   Library/metadata/5a/5a02f97198f821d4faebc27bb7445b68
+#	new file:   Library/metadata/5a/5a02f97198f821d4faebc27bb7445b68.info
+#	new file:   Library/metadata/5a/5a9c874702df7954f8272ad7bdc2cec5
+#	new file:   Library/metadata/5a/5a9c874702df7954f8272ad7bdc2cec5.info
+#	new file:   Library/metadata/5a/5ada7aa293506a64485ea0d47a4fe36c
+#	new file:   Library/metadata/5a/5ada7aa293506a64485ea0d47a4fe36c.info
+#	new file:   Library/metadata/5f/5fb3b8df8b0e09e48905327c2572b068
+#	new file:   Library/metadata/5f/5fb3b8df8b0e09e48905327c2572b068.info
+#	new file:   Library/metadata/60/60777246830460e448aaa7036eb250bc
+#	new file:   Library/metadata/60/60777246830460e448aaa7036eb250bc.info
+#	new file:   Library/metadata/64/649aa385f7c338746b7e22a286574952
+#	new file:   Library/metadata/64/649aa385f7c338746b7e22a286574952.info
+#	new file:   Library/metadata/6a/6a1e788344afbcb45b18f5e4f3874789
+#	new file:   Library/metadata/6a/6a1e788344afbcb45b18f5e4f3874789.info
+#	new file:   Library/metadata/6b/6b1be1105938fac4b90e42996e3934d1
+#	new file:   Library/metadata/6b/6b1be1105938fac4b90e42996e3934d1.info
+#	new file:   Library/metadata/6c/6c0515de57deed8459f6222d2d67e82f
+#	new file:   Library/metadata/6c/6c0515de57deed8459f6222d2d67e82f.info
+#	new file:   Library/metadata/6c/6c6d313f0a769014882fd5c86e4c1265
+#	new file:   Library/metadata/6c/6c6d313f0a769014882fd5c86e4c1265.info
+#	new file:   Library/metadata/6d/6d9c0200497a43143beb20efba687005
+#	new file:   Library/metadata/6d/6d9c0200497a43143beb20efba687005.info
+#	new file:   Library/metadata/72/727ee369b7869f14fa1559c4036e965e
+#	new file:   Library/metadata/72/727ee369b7869f14fa1559c4036e965e.info
+#	new file:   Library/metadata/7b/7bc7bd33e46d5f8458d23176699d6fba
+#	new file:   Library/metadata/7b/7bc7bd33e46d5f8458d23176699d6fba.info
+#	new file:   Library/metadata/7e/7e56a72dfaeb1f74a91bca0c522ddcf2
+#	new file:   Library/metadata/7e/7e56a72dfaeb1f74a91bca0c522ddcf2.info
+#	new file:   Library/metadata/7f/7f7cd0ad651840f4faca60457bd23c1a
+#	new file:   Library/metadata/7f/7f7cd0ad651840f4faca60457bd23c1a.info
+#	new file:   Library/metadata/80/80f1ebf213429f1458586932f3a4c8cd
+#	new file:   Library/metadata/80/80f1ebf213429f1458586932f3a4c8cd.info
+#	new file:   Library/metadata/82/82f4c3add3a6e084aa973260c722961f
+#	new file:   Library/metadata/82/82f4c3add3a6e084aa973260c722961f.info
+#	new file:   Library/metadata/8d/8d23ac9585d98764d835ab5dc7f9306d
+#	new file:   Library/metadata/8d/8d23ac9585d98764d835ab5dc7f9306d.info
+#	new file:   Library/metadata/8d/8d5380577aa55f04085a1244a4153752
+#	new file:   Library/metadata/8d/8d5380577aa55f04085a1244a4153752.info
+#	new file:   Library/metadata/8d/8dd9d062de6fe59469296ee86b325ba7
+#	new file:   Library/metadata/8d/8dd9d062de6fe59469296ee86b325ba7.info
+#	new file:   Library/metadata/93/93f589b871958aa4298697d13c3dabf7
+#	new file:   Library/metadata/93/93f589b871958aa4298697d13c3dabf7.info
+#	new file:   Library/metadata/94/94e612bd83de07e478bc252a4f9b55bc
+#	new file:   Library/metadata/94/94e612bd83de07e478bc252a4f9b55bc.info
+#	new file:   Library/metadata/9e/9e983cdb4f280aa4cb9be82b12461840
+#	new file:   Library/metadata/9e/9e983cdb4f280aa4cb9be82b12461840.info
+#	new file:   Library/metadata/a1/a1b071d663ddd2c48b823c734ef1ee65
+#	new file:   Library/metadata/a1/a1b071d663ddd2c48b823c734ef1ee65.info
+#	new file:   Library/metadata/a3/a3d577a4fe4614a40861088fca1b06ff
+#	new file:   Library/metadata/a3/a3d577a4fe4614a40861088fca1b06ff.info
+#	new file:   Library/metadata/a3/a3dfa2a5d7e14a641b1a53ccf7431566
+#	new file:   Library/metadata/a3/a3dfa2a5d7e14a641b1a53ccf7431566.info
+#	new file:   Library/metadata/a4/a4b88674dc6615e4da9962e76489a906
+#	new file:   Library/metadata/a4/a4b88674dc6615e4da9962e76489a906.info
+#	new file:   Library/metadata/aa/aa02b2bc11a48cc4fb07c6a3b9c0723a
+#	new file:   Library/metadata/aa/aa02b2bc11a48cc4fb07c6a3b9c0723a.info
+#	new file:   Library/metadata/aa/aa664f6427d773040b703e4fbe540051
+#	new file:   Library/metadata/aa/aa664f6427d773040b703e4fbe540051.info
+#	new file:   Library/metadata/ac/ac457c322550d734aae801e4f0ed3ed7
+#	new file:   Library/metadata/ac/ac457c322550d734aae801e4f0ed3ed7.info
+#	new file:   Library/metadata/ac/acada4d7de7b5154f93b444393af7a85
+#	new file:   Library/metadata/ac/acada4d7de7b5154f93b444393af7a85.info
+#	new file:   Library/metadata/b6/b65d1fbd63c7a2c41ad1714bcb4397f0
+#	new file:   Library/metadata/b6/b65d1fbd63c7a2c41ad1714bcb4397f0.info
+#	new file:   Library/metadata/bc/bcf321125a7dd6b48ad2cfab3e6e3216
+#	new file:   Library/metadata/bc/bcf321125a7dd6b48ad2cfab3e6e3216.info
+#	new file:   Library/metadata/bd/bd70595e4c30ea341b696a85b0cceccd
+#	new file:   Library/metadata/bd/bd70595e4c30ea341b696a85b0cceccd.info
+#	new file:   Library/metadata/c4/c4476bb02762e2b4dad3d3ab9387b00e
+#	new file:   Library/metadata/c4/c4476bb02762e2b4dad3d3ab9387b00e.info
+#	new file:   Library/metadata/ca/cad7601757be8794b96e854a56f057e4
+#	new file:   Library/metadata/ca/cad7601757be8794b96e854a56f057e4.info
+#	new file:   Library/metadata/d3/d3b18ed10a484a94295208f3b137dcdb
+#	new file:   Library/metadata/d3/d3b18ed10a484a94295208f3b137dcdb.info
+#	new file:   Library/metadata/d4/d483c2143a69ccc4f841042eb9a72cb5
+#	new file:   Library/metadata/d4/d483c2143a69ccc4f841042eb9a72cb5.info
+#	new file:   Library/metadata/d5/d5182b0f5e577fd4ca75a30c6e750ce7
+#	new file:   Library/metadata/d5/d5182b0f5e577fd4ca75a30c6e750ce7.info
+#	new file:   Library/metadata/d8/d834d8198db6b6b4f8fc381711f97c3f
+#	new file:   Library/metadata/d8/d834d8198db6b6b4f8fc381711f97c3f.info
+#	new file:   Library/metadata/d8/d888d1d8f998c644fb941f9aab68baf6
+#	new file:   Library/metadata/d8/d888d1d8f998c644fb941f9aab68baf6.info
+#	new file:   Library/metadata/db/dbfa7434f7812dc4a807afa3a2bde23e
+#	new file:   Library/metadata/db/dbfa7434f7812dc4a807afa3a2bde23e.info
+#	new file:   Library/metadata/dc/dcea03edb88d7a940b0fbd942c2ddf2f
+#	new file:   Library/metadata/dc/dcea03edb88d7a940b0fbd942c2ddf2f.info
+#	new file:   Library/metadata/dd/ddb1efaec2b995f458fb1d0384659188
+#	new file:   Library/metadata/dd/ddb1efaec2b995f458fb1d0384659188.info
+#	new file:   Library/metadata/e0/e018ff8233dab304aac134af808cd2f3
+#	new file:   Library/metadata/e0/e018ff8233dab304aac134af808cd2f3.info
+#	new file:   Library/metadata/e0/e044cee0fbf9d6e47b63307e1e8d5f05
+#	new file:   Library/metadata/e0/e044cee0fbf9d6e47b63307e1e8d5f05.info
+#	new file:   Library/metadata/e2/e2414b993e65fb8428a947c74f4c6a1d
+#	new file:   Library/metadata/e2/e2414b993e65fb8428a947c74f4c6a1d.info
+#	new file:   Library/metadata/e3/e30176cd4da79504e9a93d442119f006
+#	new file:   Library/metadata/e3/e30176cd4da79504e9a93d442119f006.info
+#	new file:   Library/metadata/e9/e97383d277546094aa9b8a428cafbbdb
+#	new file:   Library/metadata/e9/e97383d277546094aa9b8a428cafbbdb.info
+#	new file:   Library/metadata/e9/e995275d4873bbd42adbed1e8efe5ddc
+#	new file:   Library/metadata/e9/e995275d4873bbd42adbed1e8efe5ddc.info
+#	new file:   Library/metadata/eb/ebcee914c57ad5844b9d7efc398e3923
+#	new file:   Library/metadata/eb/ebcee914c57ad5844b9d7efc398e3923.info
+#	new file:   Library/metadata/ed/edcca3d7bddd43748b2cb62b5c41efa2
+#	new file:   Library/metadata/ed/edcca3d7bddd43748b2cb62b5c41efa2.info
+#	new file:   Library/metadata/ee/ee25db07731fa06428aeecfb1e2dec62
+#	new file:   Library/metadata/ee/ee25db07731fa06428aeecfb1e2dec62.info
+#	new file:   Library/metadata/f4/f43895422c5b6cc46bd4dee3435e38f1
+#	new file:   Library/metadata/f4/f43895422c5b6cc46bd4dee3435e38f1.info
+#	new file:   Library/metadata/f8/f8988350a678134438f75bd0454b63f2
+#	new file:   Library/metadata/f8/f8988350a678134438f75bd0454b63f2.info
+#	new file:   Library/metadata/f8/f8ae116b6f138d44db7de28fc14c2325
+#	new file:   Library/metadata/f8/f8ae116b6f138d44db7de28fc14c2325.info
+#	new file:   Library/metadata/f8/f8c6e32af66ceb145ace8e44ade5d6b5
+#	new file:   Library/metadata/f8/f8c6e32af66ceb145ace8e44ade5d6b5.info
+#	new file:   Library/metadata/fa/fa24757b47cd8544daa28fd36ed39766
+#	new file:   Library/metadata/fa/fa24757b47cd8544daa28fd36ed39766.info
+#	new file:   Library/metadata/fd/fd559641c299a884bbf7e8209e2080b8
+#	new file:   Library/metadata/fd/fd559641c299a884bbf7e8209e2080b8.info
+#	modified:   Library/shadercompiler-UnityShaderCompiler.exe0.log
+#

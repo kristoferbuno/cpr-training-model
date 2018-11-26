@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class shoulderTapCheck : MonoBehaviour {
-    public bool leftCol = false, rightCol = false;
-    public static bool tapped = false;
+    public int tapTimes = 0;
 
     // Use this for initialization
     void Start() {
@@ -12,11 +11,9 @@ public class shoulderTapCheck : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (leftCol && rightCol)
+        if (tapTimes > 2)
         {
-            tapped = true;
-            leftCol = false;
-            rightCol = false;
+            tapTimes = 0;
             GameObject.Find("call911Page").transform.Find("GUIArrows911").gameObject.active = true;
             GameObject.Find("call911Page").transform.Find("call911Dialogue").gameObject.active = true;
             GameObject.Find("attentionPage").gameObject.active = false;
@@ -25,35 +22,13 @@ public class shoulderTapCheck : MonoBehaviour {
 
     void OnTriggerEnter(Collider col)
     {
-        if (col.gameObject.name.Contains("left"))
+        if (col.gameObject.name.Contains("Controller"))
         {
-            leftCol = true;
-            Debug.Log("Left is inside");
-        }
-
-        if (col.gameObject.name.Contains("right"))
-        {
-            rightCol = true;
-            Debug.Log("Right is inside");
+            tapTimes++;
+            Debug.Log("Shoulder has been tapped!");
         }
 
         SteamVR_Controller.Input((int)col.gameObject.GetComponent<SteamVR_TrackedController>().controllerIndex).TriggerHapticPulse(500);
-    }
-
-    void OnTriggerLeave(Collider col)
-    {
-        if (col.gameObject.name.Contains("left"))
-        {
-            leftCol = false;
-            Debug.Log("Left leaves");
-        }
-
-        if (col.gameObject.name.Contains("right"))
-        {
-            rightCol = false;
-            Debug.Log("Right leaves");
-        }
-
     }
 
 }

@@ -13,9 +13,9 @@ public class compressionCheckCount : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        bpm.text = compressionCheck.comptimes.Count <= 30 ? "" + compressionCheck.comptimes.Count : "" + 30;
+        bpm.text = compressionCheck.comptimes.Count <= 10 ? "" + compressionCheck.comptimes.Count : "" + 10;
 
-		if (compressionCheck.comptimes.Count >= 30)
+		if (compressionCheck.comptimes.Count >= 10)
 		{
 		compressionCheck.comptimes.Clear();
 		compressionCheck.collisions.Clear();

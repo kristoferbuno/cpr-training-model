@@ -20,6 +20,7 @@ public class compressionCheckCount : MonoBehaviour {
 		compressionCheck.comptimes.Clear();
 		compressionCheck.collisions.Clear();
 		compressionCheck.bpm = 0;
+		GameObject.Find("cprSetup").transform.Find("audioSelection").gameObject.SetActive(false);
 		GameObject.Find("cprSetup").transform.Find("compressionCompletion").gameObject.SetActive(true);
 		GameObject.Find("cprSetup").transform.Find("heartCanvas").gameObject.SetActive(false);
 		GameObject.Find("cprSetup").transform.Find("bottomPlate").gameObject.SetActive(false);
